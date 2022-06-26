@@ -49,3 +49,6 @@ UPDATE `user_roles` SET `role_id` = '1' WHERE `user_roles`.`user_id` = 1 AND `us
 ```
 It will give you admin power and you will be able to moderate banners and categories!
 # But remember, with great power comes great responsobility!
+
+
+I had some difficultes in implementing Spring security in the application, so I used this guide to slove the issue: https://www.bezkoder.com/spring-boot-react-jwt-auth/
