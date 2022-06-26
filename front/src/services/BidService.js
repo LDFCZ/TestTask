@@ -8,6 +8,10 @@ class BidService {
         console.log(categories)
         return axios.get(BANNER_BID_URL + "?" + categories.map(c => "cat="+ c).join("&"));
     }
+
+    getCategories() {
+        return axios.get(BANNER_BID_URL + "/categories");
+    }
 }
 
 export default new BidService()

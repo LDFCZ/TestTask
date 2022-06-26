@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BidService from "../services/BidService";
-import categoryService from "../services/CategoryService";
+//import categoryService from "../services/CategoryService";
 
 
 class BidComponent extends Component {
@@ -28,7 +28,7 @@ class BidComponent extends Component {
 
     componentDidMount() {
 
-        categoryService.getCategories()
+        BidService.getCategories()
             .then( res => {
                 this.setState({categories: res.data})
             })
