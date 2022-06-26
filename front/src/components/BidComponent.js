@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import BidService from "../services/BidService";
-//import categoryService from "../services/CategoryService";
 
 
 class BidComponent extends Component {
